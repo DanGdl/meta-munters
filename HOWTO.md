@@ -33,7 +33,7 @@ $ git clone git@bitbucket.org:trio-bsp/meta-nexcomm.git
 
 5. Download additional layers:
 `$ git clone --branch hardknott git://git.yoctoproject.org/meta-selinux`
-`$ git clone clone git://git.yoctoproject.org/meta-munters` FIX!!
+`$ git clone https://github.com/DanGdl/meta-munters.git`
 
 6. Setup the build environment
 ```
