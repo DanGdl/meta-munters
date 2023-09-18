@@ -1,12 +1,15 @@
-This README file contains information on the contents of the meta-teamviewer layer.
+# meta-munters
+Layer for yocto (hardknott) to set up apt and libraries for teamviewer
+
+This README file contains information on the contents of the meta-munters layer.
 
 Please see the corresponding sections below for details.
 
 Dependencies
 ============
 
-  URI: <first dependency>
-  branch: <branch name>
+  URI: git://git.yoctoproject.org/meta-selinux
+  branch: hardknott
 
   URI: <second dependency>
   branch: <branch name>
@@ -26,16 +29,16 @@ Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
 Table of Contents
 =================
 
-  I. Adding the meta-teamviewer layer to your build
+  I. Adding the meta-munters layer to your build
  II. Misc
 
 
-I. Adding the meta-teamviewer layer to your build
+I. Adding the meta-munters layer to your build
 =================================================
 
-Run 'bitbake-layers add-layer meta-teamviewer'
+Run 'bitbake-layers add-layer meta-munters'
 
 II. Misc
 ========
 
---- replace with specific information about the meta-teamviewer layer ---
+--- replace with specific information about the meta-munters layer ---
