@@ -42,7 +42,7 @@ $ DISTRO=fsl-imx-xwayland MACHINE=imx8mm-lpddr4-trio source sources/meta-nexcomm
 ```
 
 7. Add layers to project (order matters):
-`echo 'BBLAYERS += "${BSPDIR}/sources/meta-selinux"' >> ./conf/bblayers.conf`
+`echo 'BBLAYERS += "${BSPDIR}/sources/meta-selinux"' >> ./conf/bblayers.conf` -> optional
 `echo 'BBLAYERS += "${BSPDIR}/sources/meta-munters"' >> ./conf/bblayers.conf`
 
 8. Build image
